@@ -103,7 +103,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .video iframe {
@@ -115,7 +115,44 @@
 /* CONTAINER 2 */
 .container2 {
     background: rgba(255, 241, 102, 0.28);
+    padding: 20px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    align-items: center;
 }
+
+.title {
+    text-align: left;
+}
+
+.title h2 {
+    font-size: 96px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF166;
+    margin-left: 60px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.author, .dessin, .scenario{
+    text-align: right;
+    flex: 1;
+    margin-right: 40px;
+}
+
+.author h3, .dessin h3, .scenario h3, .author p, .dessin p, .scenario p {
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CONTAINER 3  */
+
 
 
 
